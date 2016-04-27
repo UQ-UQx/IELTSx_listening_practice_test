@@ -26,6 +26,16 @@ once cloned, create a file called "config.php" and add the following with your d
 ?>
 ```
 
+* inc/grade.php
+
+You will need to add your client secret as shown below to allow for grade return
+
+```php
+
+$oauth_consumer_secret = 'YOUR SECRET';
+
+```
+
 # Setup
 1. Edit config.php with your respective LTI keys and optional database details
 2. Host on a https server (LTI with edX requires HTTPS)
