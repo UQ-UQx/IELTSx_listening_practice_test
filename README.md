@@ -26,7 +26,7 @@ once cloned, create a file called "config.php" and add the following with your d
 ?>
 ```
 
-* inc/grade.php
+* lib/grade.php
 
 You will need to add your client secret as shown below to allow for grade return
 
